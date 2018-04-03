@@ -25,8 +25,8 @@ let chat_model = ["id", "tickets", "visitor_name", "visitor_id", "agents", "rate
 function build_agent_chats(agent) {
   allAgentChats[agent] = [];
   let chat_params = {
-    date_from: "2018-02-01",
-    date_to: "2018-02-28",
+    date_from: "2018-03-01",
+    date_to: "2018-03-31",
     timezone: "America/Los_Angeles",
     agent: agent
   }
